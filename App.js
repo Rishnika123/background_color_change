@@ -27,7 +27,7 @@ class HelloWorld extends React.Component {
 					<h2>Hello, World!</h2>
 
 					<br />
-					<input value={this.state.color} onChange={this.changeColor.bind(this)} />
+P					<input value={this.state.color} onChange={this.changeColor.bind(this)} />
 					<br />
 					<br />
 					<br />
