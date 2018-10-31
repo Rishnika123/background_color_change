@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-const colorArray = ['red', 'lightblue', 'pink', 'yellow', 'brown', 'magenta'];
-
 class HelloWorld extends React.Component {
 	constructor(props) {
 		super(props);
