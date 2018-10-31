@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } ;
 class HelloWorld extends React.Component {
 	constructor(props) {
 		super(props);
