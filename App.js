@@ -23,9 +23,9 @@ class HelloWorld extends React.Component {
 			<div id="hello-world" style={stylesObj} className="container">
 				<div className="box">
 					<h2>Hello, World!</h2>
-
 					<br />
-P					<input value={this.state.color} onChange={this.changeColor.bind(this)} />
+					<p> Enter a color for the background. </p>   
+			<input value={this.state.color} onChange={this.changeColor.bind(this)} />
 					<br />
 					<br />
 					<br />
