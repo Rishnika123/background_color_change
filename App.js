@@ -1,5 +1,5 @@
-import React, { Component } ;
-class HelloWorld extends React.Component {
+import React, { Component } from 'react';
+class HelloWorld extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -20,6 +20,7 @@ class HelloWorld extends React.Component {
 		};
 
 		return (
+			
 			<div id="hello-world" style={stylesObj} className="container">
 				<div className="box">
 					<h2>Hello, World!</h2>
